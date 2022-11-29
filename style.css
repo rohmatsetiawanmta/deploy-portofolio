@@ -1,0 +1,156 @@
+* {
+  font-family: "Nunito";
+}
+
+.container-one {
+  margin: 0;
+  padding: 0;
+}
+
+.section-one {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  margin: 50px;
+}
+
+.self-photo {
+  width: 20%;
+}
+
+.photo-background {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://lh3.googleusercontent.com/asCX6Qk_XOovmDxbwMFlX8ATopBMAXlK1ZNzN1KzygvxC9jW8HE4aRCgyamvWau5_gY3ZouxDXwR9XAHrKRWzRX_sVTyuF5fq7gYtDWxeZ_fzojH4yPtkyQUVm_QEq7rCvrJssTe5bCXVNfqKegcPHJTHFwnCqJelMCOig10ER4bRy78bTOAsGrltlojPM1G4Ucv_pGwPcIYw4i03EexSLp7AuyLMmV3EHZ5D2kW-ZiMQ7xpTvnG9JU0jAo16krTgCN_8KNEIfTlH_nWbJKWYLFzQTM5cSPfVKSKCzqUeIB3hK2DGvjgVcGgkQl5_Zc5yLkskedGq4hQrXTQaeBtTKAmDyO-rdBJ9LmjildaS2x2R9tLqr4ltH60YoFiDvTABtfBUyAwWRoCCVgM_zJoXMOOvMI5PHa6WBWT6KLFudZg3IP64fh1MSiz8raKJYlOePMtIAytKT9eUuHvCSURaG-TCJElrZA-bdb8-wb4ljAR6er05rM3SFNgDAYU3SNtH2IeZSoIB4YkVS3zCFV6r9Ih6GwrWDAAuaIW0qqw6jzaXOVDitdBA8vDrMGH7CoFAiKCOrMASzOkuvAOQyzzq21KwwLtD3eK9ETTzqFQ9qyC3rCPGcjP2bCmTw_2mKlD6w9w-0-7eL6OxrooB3-ltaJsoBs0ycCi-k9Srj0LtRJJ7HAjwBFyXXgVMbMmVlvhBBh78COwRRATw-Gacdgr5U1WLM8617xibcn5gdVgaewJwodPz6ipPa6EPNzX0cSk4ST2K3aE1kr6GrieIcdqkeSvqF9fVDn9vfJXWU7Vgukcpz5ImrU8o5xftuqbmu3GSDyAewhXftyfGNedUvDvg7UV1hLRJrpgT84KOyrtTGFyqjhjAVwCK_HDWKO9WI7PjVEvMAUFL1rChiXLI1Vk81p3FBg9RoVboXprLxiUpM1Y=w347-h617-no?authuser=0);
+  background-size: 315px 560px;
+  background-position-x: -10px;
+  background-position-y: center;
+}
+
+.about-me {
+  width: 70%;
+}
+
+.title {
+  font-size: 50pt;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 16pt;
+  text-align: center;
+}
+
+.sub-about-me {
+  margin-top: 25px;
+  display: flex;
+  height: 250px;
+  justify-content: space-around;
+}
+
+.text-about-me {
+  width: 40%;
+}
+
+.title-about-me {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.all-about-me {
+  font-size: 12pt;
+  text-align: justify;
+}
+
+.separator-about-me {
+  height: 5px;
+}
+
+.socmed {
+  display: flex;
+  height: 30px;
+}
+
+.separator-socmed {
+  width: 10px;
+}
+
+.socmed-logo {
+  height: 100%;
+}
+
+.container-two {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.section-two {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  margin: 50px;
+}
+
+.my-interest {
+  width: 15%;
+  background-color: #0cc;
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 25px;
+  border-radius: 25px;
+  color: black;
+}
+
+.separator {
+  height: 15px;
+}
+
+.my-interest-card {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-row {
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-box {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0cc;
+  border-radius: 20px;
+}
+
+.card-picture {
+  height: 100%;
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.card-picture img {
+  height: 80%;
+}
+
+.card-definition {
+  height: 175px;
+  width: 55%;
+}
